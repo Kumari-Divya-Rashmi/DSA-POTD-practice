@@ -12,9 +12,13 @@ The goal is to strengthen understanding of core **data structures**, **algorithm
 DSA-POTD-practice
 └── Day_01.cpp
 └── Day_02.cpp
+└── Day_03.cpp
+└── Day_04.cpp
        .
        .
        .
+└── Day_149.cpp       
+└── Day_150.cpp       
 
 
 - The folder is named by DSA-POTD-practice
@@ -32,11 +36,19 @@ DSA-POTD-practice
 
 ## 📅 Progress Tracker
 
-| Date       | Problem Title       | Status  |
-|------------|---------------------|---------|
-| 2025-02-27 | Example Problem 1   | ✅ Done |
-| 2025-02-28 | Example Problem 2   | ✅ Done |
-| ...        | ...                 | ...     |
+| Date       | Problem Title                                | Status  |
+|------------|------------------------------------------    |---------|
+| 2025-02-27 |  Get Min from Stack                          | ✅ Done |
+| 2025-02-28 |  Postfix Evaluation                          | ✅ Done |
+| 2025-03-01 |  Decode the string                           | ✅ Done |
+| 2025-03-02 |  K Sized Subarray Maximum                    | ✅ Done |
+| 2025-03-03 | Longest Bounded-Difference Subarray          | ✅ Done |
+| 2025-03-04 | Longest Increasing Subsequence               | ...     |
+| ...        | ...                                          | ...     |
+| ...        | ...                                          | ...     |
+| ...        | ...                                          | ...     |
+| 2025-07-25 | Max Circular Subarray Sum                    | ✅ Done |
+| 2025-07-26 | Majority Element - More Than n/3             | ✅ Done |
 
 
 
