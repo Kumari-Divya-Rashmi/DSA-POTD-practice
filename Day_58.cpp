@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+using namespace std;
+class Solution {
+  public:
+    int majorityElement(vector<int>& arr) {
+        int candidate = -1, count = 0;
+        int n = arr.size();
+        for (int num : arr) {
+            if (count == 0) {
+                candidate = num;
+                count = 1;
+            } else {
+                count += (num == candidate) ? 1 : -1;
+            }
+        }
+        count = 0;
+        for (int num : arr) {
+            if (num == candidate) {
+                count++;
+            }
+        }
+
+        if (count > n / 2) {
+            return candidate;
+        }
+
+        return -1; 
+    }
+};
